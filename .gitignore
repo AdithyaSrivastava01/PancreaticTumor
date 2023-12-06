@@ -1,1 +1,14 @@
 dataset
+Segment_data
+result.txt
+__pycache__
+Segment_data.zip
+Mask-RCNN-TF2 
+dataset_new
+requirements.txt
+NewMask
+deleted
+tumorfeatures.csv
+values.csv
+featuresvalues.csv
+/home/adithya/Document/Major_Proj/Mask-RCNN-TF2/kangaroo-transfer-learning
