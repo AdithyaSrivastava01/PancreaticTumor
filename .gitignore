@@ -29,9 +29,16 @@ Segmentation_MRCNN.zip
 metrics_compare.png
 metrics_compare.png:Zone.Identifier
 Segment_data_1
-
-
-
+tumorfeaturesvalues_new2D_automated_50.csv
+tumorfeaturesvalues_new2D_automated_60.csv
+tumorfeaturesvalues_new2D_automated_70.csv
+tumorfeaturesvalues_new2D_automated.csv
+tumorfeaturesvalues_new2D.csv
+model_weights.pth
+check.csv
+featuresvalues_new2D_automated.csv
+featuresvalues_new2D.csv
+Automated_data
 
 
 
