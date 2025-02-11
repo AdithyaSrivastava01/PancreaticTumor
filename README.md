@@ -59,4 +59,4 @@ This research presents a novel **multi-stage deep learning approach** combining 
 ## References  
 - [1] The Cancer Imaging Archive: [Link](https://wiki.cancerimagingarchive.net/display/public/pancreas-ct)  
 - [2] Memorial Sloan Kettering Cancer Center: [Link](http://medicaldecathlon.com/)  
-- Additional references and more details are available in the full research paper(under review)[Link](https://drive.google.com/drive/folders/1OZpMVjTcZ3_rYUhTuIra5YogLBDw6kCg).  
+- Additional references and more details are available in the full research paper(under review): [Link](https://drive.google.com/drive/folders/1OZpMVjTcZ3_rYUhTuIra5YogLBDw6kCg).  
