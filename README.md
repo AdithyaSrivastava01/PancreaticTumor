@@ -28,32 +28,14 @@ Pancreatic cancer is one of the most lethal malignancies, with poor survival rat
 ### 4. **Classification using Machine Learning Models**  
 - **AdaBoost performed best with 93.3% accuracy**, followed by XGBoost (91.25%) and a Feedforward Neural Network (88.4%).  
 
-## Mathematical Formulation  
-
-### **Segmentation Loss (Mask R-CNN):**  
-\[
-L_{mrcnn} = L_{rpn\_class} + L_{rpn\_bbox} + L_{cls} + L_{bbox} + L_{mask}
-\]  
-
-### **Feature Fusion Equation:**  
-\[
-F_i = n \times T_i + m \times P_i
-\]  
-where \(T_i\) and \(P_i\) are tumor and pancreas features, respectively, and **n:m is set to 70:30**.  
-
-### **Classification Objective Function:**  
-\[
-L_{binary} = \sum_{i=1}^{N} \exp(- (2y_i - 1) \cdot \hat{y})
-\]  
-where \( y_i \) is the ground truth label, and \( \hat{y} \) is the predicted probability.  
 
 ## Results  
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |  
 |--------|----------|------------|--------|---------|---------|  
 | **AdaBoost** | **93.3%** | 96.12% | 96.78% | 96.40% | 97.72% |  
-| XGBoost | 91.25% | - | - | - | - |  
-| Feedforward Neural Network | 88.4% | - | - | - | - |  
+| XGBoost | 91.25% | 92.1% | 91.3% | 94.3% | 92% |  
+| Feedforward Neural Network | 88.4% | 89% | 90.1% | 87.8% | 91% |  
 
 ### **Segmentation Performance (Mask R-CNN vs. U-Net)**  
 | Model | Dice Coefficient | IoU | Pixel Accuracy |  
@@ -77,4 +59,4 @@ This research presents a novel **multi-stage deep learning approach** combining 
 ## References  
 - [1] The Cancer Imaging Archive: [Link](https://wiki.cancerimagingarchive.net/display/public/pancreas-ct)  
 - [2] Memorial Sloan Kettering Cancer Center: [Link](http://medicaldecathlon.com/)  
-- Additional references available in the full research paper.  
+- Additional references and more details are available in the full research paper(under review)[Link](https://drive.google.com/drive/folders/1OZpMVjTcZ3_rYUhTuIra5YogLBDw6kCg).  
